@@ -1,0 +1,531 @@
+<Report type="Control">
+	<header label="Geomagic Control 报告" />
+	<title label="标题">Geomagic Control 报告</title>
+	<date label="日期" />
+	<units label="单位">mm</units>
+	<CSYS label="坐标系">mm</CSYS>
+	<author label="作者">hp:hp048</author>
+	<client label="客户名称">3D Systems, Inc.</client>
+	<dateGenerated label="生成日期">5/31/2019, 11:37 am</dateGenerated>
+	<dateInspected label="检测日期">5/31/2019</dateInspected>
+	<model label="参考模型" type="参考">22jm - 副本</model>
+	<model label="测试模型" type="测试">21jm - 副本</model>
+	<results label="结果" />
+	<notes label="注释" />
+	<deviationDistribution label="偏差分布" />
+	<standardDeviations label="标准偏差" />
+	<introduction label="简介" />
+	<conclusion label="结论" />
+	<image label="" type="splash">images\cvr_1_l.png</image>
+	<errors>
+		<title>报告生成错误</title>
+	</errors>
+	<viewSets>
+		<views name="Predefined" label="预定义" title="预定义视图">
+			<view name="等测">
+				<images>
+					<image type="generic">images\pre_8_l.png</image>
+				</images>
+			</view>
+			<view name="前视">
+				<images>
+					<image type="generic">images\pre_6_l.png</image>
+				</images>
+			</view>
+			<view name="后视">
+				<images>
+					<image type="generic">images\pre_7_l.png</image>
+				</images>
+			</view>
+			<view name="左视">
+				<images>
+					<image type="generic">images\pre_2_l.png</image>
+				</images>
+			</view>
+			<view name="右视">
+				<images>
+					<image type="generic">images\pre_3_l.png</image>
+				</images>
+			</view>
+			<view name="顶部">
+				<images>
+					<image type="generic">images\pre_4_l.png</image>
+				</images>
+			</view>
+			<view name="底部">
+				<images>
+					<image type="generic">images\pre_5_l.png</image>
+				</images>
+			</view>
+		</views>
+		<views name="Annotated" label="带标注视图" title="注释视图">
+			<view name="注释视图 1" csys="注释视图 1">
+				<images>
+					<image type="generic">images\ann_1_l.png</image>
+				</images>
+				<table>
+					<columns>
+						<column name="Name">名称</column>
+						<column name="Deviation">偏差</column>
+						<column name="Status">状态</column>
+						<column name="UpperTolerance">上公差</column>
+						<column name="LowerTolerance">下公差</column>
+						<column name="RefX">参考 X</column>
+						<column name="RefY">参考 Y</column>
+						<column name="RefZ">参考 Z</column>
+						<column name="Radius">偏差半径</column>
+						<column name="DevX">偏差 X</column>
+						<column name="DevY">偏差 Y</column>
+						<column name="DevZ">偏差 Z</column>
+						<column name="TestX">测量的 X</column>
+						<column name="TestY">测量的 Y</column>
+						<column name="TestZ">测量的 Z</column>
+						<column name="NormalX">法线 X</column>
+						<column name="NormalY">法线 Y</column>
+						<column name="NormalZ">法线 Z</column>
+					</columns>
+					<rows>
+						<row name="Annotation" metaResult="pass">
+							<value name="Name">A001</value>
+							<value name="Deviation">-0.3203</value>
+							<value name="Status" />
+							<value name="UpperTolerance" />
+							<value name="LowerTolerance" />
+							<value name="RefX">27.4192</value>
+							<value name="RefY">13.6399</value>
+							<value name="RefZ">50.4490</value>
+							<value name="Radius">1.0000</value>
+							<value name="DevX">-0.0031</value>
+							<value name="DevY">-0.2770</value>
+							<value name="DevZ">-0.1608</value>
+							<value name="TestX">27.4161</value>
+							<value name="TestY">13.3629</value>
+							<value name="TestZ">50.2882</value>
+							<value name="NormalX">0.0097</value>
+							<value name="NormalY">0.8647</value>
+							<value name="NormalZ">0.5021</value>
+						</row>
+						<row name="Annotation" metaResult="pass">
+							<value name="Name">A002</value>
+							<value name="Deviation">-0.2229</value>
+							<value name="Status" />
+							<value name="UpperTolerance" />
+							<value name="LowerTolerance" />
+							<value name="RefX">32.2909</value>
+							<value name="RefY">7.3537</value>
+							<value name="RefZ">56.2643</value>
+							<value name="Radius">1.0000</value>
+							<value name="DevX">-0.0068</value>
+							<value name="DevY">-0.1021</value>
+							<value name="DevZ">-0.1980</value>
+							<value name="TestX">32.2841</value>
+							<value name="TestY">7.2516</value>
+							<value name="TestZ">56.0664</value>
+							<value name="NormalX">0.0304</value>
+							<value name="NormalY">0.4583</value>
+							<value name="NormalZ">0.8883</value>
+						</row>
+						<row name="Annotation" metaResult="pass">
+							<value name="Name">A003</value>
+							<value name="Deviation">0.5477</value>
+							<value name="Status" />
+							<value name="UpperTolerance" />
+							<value name="LowerTolerance" />
+							<value name="RefX">36.6777</value>
+							<value name="RefY">13.9721</value>
+							<value name="RefZ">49.6881</value>
+							<value name="Radius">1.0000</value>
+							<value name="DevX">0.0114</value>
+							<value name="DevY">0.4777</value>
+							<value name="DevZ">0.2676</value>
+							<value name="TestX">36.6891</value>
+							<value name="TestY">14.4499</value>
+							<value name="TestZ">49.9557</value>
+							<value name="NormalX">0.0207</value>
+							<value name="NormalY">0.8723</value>
+							<value name="NormalZ">0.4885</value>
+						</row>
+					</rows>
+				</table>
+			</view>
+			<view name="全部" englishLabel="All">
+				<images />
+				<table>
+					<columns>
+						<column name="Name">名称</column>
+						<column name="Deviation">偏差</column>
+						<column name="Status">状态</column>
+						<column name="UpperTolerance">上公差</column>
+						<column name="LowerTolerance">下公差</column>
+						<column name="RefX">参考 X</column>
+						<column name="RefY">参考 Y</column>
+						<column name="RefZ">参考 Z</column>
+						<column name="Radius">偏差半径</column>
+						<column name="DevX">偏差 X</column>
+						<column name="DevY">偏差 Y</column>
+						<column name="DevZ">偏差 Z</column>
+						<column name="TestX">测量的 X</column>
+						<column name="TestY">测量的 Y</column>
+						<column name="TestZ">测量的 Z</column>
+						<column name="NormalX">法线 X</column>
+						<column name="NormalY">法线 Y</column>
+						<column name="NormalZ">法线 Z</column>
+					</columns>
+					<rows>
+						<row name="Annotation" metaResult="pass">
+							<value name="Name">A001</value>
+							<value name="Deviation">-0.3203</value>
+							<value name="Status" />
+							<value name="UpperTolerance" />
+							<value name="LowerTolerance" />
+							<value name="RefX">27.4192</value>
+							<value name="RefY">13.6399</value>
+							<value name="RefZ">50.4490</value>
+							<value name="Radius">1.0000</value>
+							<value name="DevX">-0.0031</value>
+							<value name="DevY">-0.2770</value>
+							<value name="DevZ">-0.1608</value>
+							<value name="TestX">27.4161</value>
+							<value name="TestY">13.3629</value>
+							<value name="TestZ">50.2882</value>
+							<value name="NormalX">0.0097</value>
+							<value name="NormalY">0.8647</value>
+							<value name="NormalZ">0.5021</value>
+						</row>
+						<row name="Annotation" metaResult="pass">
+							<value name="Name">A002</value>
+							<value name="Deviation">-0.2229</value>
+							<value name="Status" />
+							<value name="UpperTolerance" />
+							<value name="LowerTolerance" />
+							<value name="RefX">32.2909</value>
+							<value name="RefY">7.3537</value>
+							<value name="RefZ">56.2643</value>
+							<value name="Radius">1.0000</value>
+							<value name="DevX">-0.0068</value>
+							<value name="DevY">-0.1021</value>
+							<value name="DevZ">-0.1980</value>
+							<value name="TestX">32.2841</value>
+							<value name="TestY">7.2516</value>
+							<value name="TestZ">56.0664</value>
+							<value name="NormalX">0.0304</value>
+							<value name="NormalY">0.4583</value>
+							<value name="NormalZ">0.8883</value>
+						</row>
+						<row name="Annotation" metaResult="pass">
+							<value name="Name">A003</value>
+							<value name="Deviation">0.5477</value>
+							<value name="Status" />
+							<value name="UpperTolerance" />
+							<value name="LowerTolerance" />
+							<value name="RefX">36.6777</value>
+							<value name="RefY">13.9721</value>
+							<value name="RefZ">49.6881</value>
+							<value name="Radius">1.0000</value>
+							<value name="DevX">0.0114</value>
+							<value name="DevY">0.4777</value>
+							<value name="DevZ">0.2676</value>
+							<value name="TestX">36.6891</value>
+							<value name="TestY">14.4499</value>
+							<value name="TestZ">49.9557</value>
+							<value name="NormalX">0.0207</value>
+							<value name="NormalY">0.8723</value>
+							<value name="NormalZ">0.4885</value>
+						</row>
+					</rows>
+				</table>
+			</view>
+		</views>
+		<views name="Compare 3D" label="比较3D" title="3D比较">
+			<view name="3D比较">
+				<images>
+					<image type="generic">images\cvr_1_l.png</image>
+				</images>
+				<statistics>
+					<table name="General Statistics">
+						<columns>
+							<column name="NumPoints">数据点的数量</column>
+							<column name="ToleranceType">公差类型</column>
+							<column name="Units">单位</column>
+							<column name="UpperCritical">最大临界值</column>
+							<column name="UpperNominal">最大名义值</column>
+							<column name="LowerNominal">最小名义值</column>
+							<column name="LowerCritical">最小临界值</column>
+							<column name="DeviationUnits">偏差</column>
+							<column name="MaxDeviationPositive">最大上偏差</column>
+							<column name="MaxDeviationNegative">最大下偏差</column>
+							<column name="AverageDeviation">平均偏差</column>
+							<column name="StandardDeviation">标准偏差</column>
+						</columns>
+						<rows>
+							<row>
+								<value name="NumPoints">208980</value>
+								<value name="ToleranceType">3D偏差</value>
+								<value name="Units">mm</value>
+								<value name="UpperCritical">5.8991</value>
+								<value name="UpperNominal">0.2950</value>
+								<value name="LowerNominal">-0.2950</value>
+								<value name="LowerCritical">-5.8991</value>
+								<value name="Deviation Units">mm</value>
+								<value name="MaxDeviationPositive">5.8991</value>
+								<value name="MaxDeviationNegative">-5.8983</value>
+								<value name="AverageDeviation">0.5711 /-0.5359</value>
+								<value name="StandardDeviation">1.0656</value>
+							</row>
+						</rows>
+					</table>
+					<table name="Percentage Deviation" title="偏差分布">
+						<columns>
+							<column name="Min">&gt;=Min</column>
+							<column name="Max">&lt;Max</column>
+							<column name="NumPoints"># 点</column>
+							<column name="Percent">%</column>
+						</columns>
+						<rows>
+							<row>
+								<value name="Min">-5.8991</value>
+								<value name="Max">-4.9651</value>
+								<value name="NumPoints">868</value>
+								<value name="Percent">0.4154</value>
+							</row>
+							<row>
+								<value name="Min">-4.9651</value>
+								<value name="Max">-4.0311</value>
+								<value name="NumPoints">1191</value>
+								<value name="Percent">0.5699</value>
+							</row>
+							<row>
+								<value name="Min">-4.0311</value>
+								<value name="Max">-3.0971</value>
+								<value name="NumPoints">1535</value>
+								<value name="Percent">0.7345</value>
+							</row>
+							<row>
+								<value name="Min">-3.0971</value>
+								<value name="Max">-2.1630</value>
+								<value name="NumPoints">1646</value>
+								<value name="Percent">0.7876</value>
+							</row>
+							<row>
+								<value name="Min">-2.1630</value>
+								<value name="Max">-1.2290</value>
+								<value name="NumPoints">6439</value>
+								<value name="Percent">3.0812</value>
+							</row>
+							<row>
+								<value name="Min">-1.2290</value>
+								<value name="Max">-0.2950</value>
+								<value name="NumPoints">34631</value>
+								<value name="Percent">16.5714</value>
+							</row>
+							<row>
+								<value name="Min">-0.2950</value>
+								<value name="Max">0.2950</value>
+								<value name="NumPoints">119967</value>
+								<value name="Percent">57.4060</value>
+							</row>
+							<row>
+								<value name="Min">0.2950</value>
+								<value name="Max">1.2290</value>
+								<value name="NumPoints">30846</value>
+								<value name="Percent">14.7603</value>
+							</row>
+							<row>
+								<value name="Min">1.2290</value>
+								<value name="Max">2.1630</value>
+								<value name="NumPoints">5441</value>
+								<value name="Percent">2.6036</value>
+							</row>
+							<row>
+								<value name="Min">2.1630</value>
+								<value name="Max">3.0971</value>
+								<value name="NumPoints">2167</value>
+								<value name="Percent">1.0369</value>
+							</row>
+							<row>
+								<value name="Min">3.0971</value>
+								<value name="Max">4.0311</value>
+								<value name="NumPoints">1749</value>
+								<value name="Percent">0.8369</value>
+							</row>
+							<row>
+								<value name="Min">4.0311</value>
+								<value name="Max">4.9651</value>
+								<value name="NumPoints">1607</value>
+								<value name="Percent">0.7690</value>
+							</row>
+							<row>
+								<value name="Min">4.9651</value>
+								<value name="Max">5.8991</value>
+								<value name="NumPoints">893</value>
+								<value name="Percent">0.4273</value>
+							</row>
+						</rows>
+					</table>
+					<table name="Standard Deviations" title="标准偏差">
+						<columns>
+							<column name="Distribution">分布(+/-)</column>
+							<column name="NumPoints"># 点</column>
+							<column name="Percent">%</column>
+						</columns>
+						<rows>
+							<row>
+								<value name="Distribution">-6 * 标准偏差</value>
+								<value name="NumPoints">511</value>
+								<value name="Percent">0.2445</value>
+							</row>
+							<row>
+								<value name="Distribution">-5 * 标准偏差</value>
+								<value name="NumPoints">1240</value>
+								<value name="Percent">0.5934</value>
+							</row>
+							<row>
+								<value name="Distribution">-4 * 标准偏差</value>
+								<value name="NumPoints">1656</value>
+								<value name="Percent">0.7924</value>
+							</row>
+							<row>
+								<value name="Distribution">-3 * 标准偏差</value>
+								<value name="NumPoints">1887</value>
+								<value name="Percent">0.9030</value>
+							</row>
+							<row>
+								<value name="Distribution">-2 * 标准偏差</value>
+								<value name="NumPoints">9423</value>
+								<value name="Percent">4.5090</value>
+							</row>
+							<row>
+								<value name="Distribution">-1 * 标准偏差</value>
+								<value name="NumPoints">92645</value>
+								<value name="Percent">44.3320</value>
+							</row>
+							<row>
+								<value name="Distribution">1 * 标准偏差</value>
+								<value name="NumPoints">87427</value>
+								<value name="Percent">41.8351</value>
+							</row>
+							<row>
+								<value name="Distribution">2 * 标准偏差</value>
+								<value name="NumPoints">7630</value>
+								<value name="Percent">3.6511</value>
+							</row>
+							<row>
+								<value name="Distribution">3 * 标准偏差</value>
+								<value name="NumPoints">2456</value>
+								<value name="Percent">1.1752</value>
+							</row>
+							<row>
+								<value name="Distribution">4 * 标准偏差</value>
+								<value name="NumPoints">2037</value>
+								<value name="Percent">0.9747</value>
+							</row>
+							<row>
+								<value name="Distribution">5 * 标准偏差</value>
+								<value name="NumPoints">1613</value>
+								<value name="Percent">0.7718</value>
+							</row>
+							<row>
+								<value name="Distribution">6 * 标准偏差</value>
+								<value name="NumPoints">455</value>
+								<value name="Percent">0.2177</value>
+							</row>
+						</rows>
+					</table>
+					<table name="OutOfUpperCritical" title="超出最大临界值">
+						<columns>
+							<column name="NumPoints">点数目</column>
+							<column name="Percent">%</column>
+						</columns>
+						<rows>
+							<row>
+								<value name="NumPoints">0</value>
+								<value name="Percent">0.0000</value>
+							</row>
+						</rows>
+					</table>
+					<table name="OutOfLowerCritical" title="超出最小临界值">
+						<columns>
+							<column name="NumPoints">点数目</column>
+							<column name="Percent">%</column>
+						</columns>
+						<rows>
+							<row>
+								<value name="NumPoints">0</value>
+								<value name="Percent">0.0000</value>
+							</row>
+						</rows>
+					</table>
+				</statistics>
+			</view>
+		</views>
+		<views name="Locations" label="位置集" title="位置集">
+			<view name="上下偏差">
+				<images />
+				<table>
+					<columns>
+						<column name="Name">名称</column>
+						<column name="Deviation">偏差</column>
+						<column name="Status">状态</column>
+						<column name="UpperTolerance">上 公差</column>
+						<column name="LowerTolerance">下 公差</column>
+						<column name="RefX">参考 X</column>
+						<column name="RefY">参考 Y</column>
+						<column name="RefZ">参考 Z</column>
+						<column name="Radius">半径</column>
+						<column name="DevX">偏差 X</column>
+						<column name="DevY">偏差 Y</column>
+						<column name="DevZ">偏差 Z</column>
+						<column name="MeasuredX">测量值 X</column>
+						<column name="MeasuredY">测量值 Y</column>
+						<column name="MeasuredZ">测量值 Z</column>
+						<column name="NormalX">项目目录 X</column>
+						<column name="NormalY">项目目录 Y</column>
+						<column name="NormalZ">项目目录 Z</column>
+					</columns>
+					<rows>
+						<row name="Location" metaResult="fail">
+							<value name="Name">上偏差</value>
+							<value name="Deviation">5.8991</value>
+							<value name="Status" />
+							<value name="UpperTolerance" />
+							<value name="LowerTolerance" />
+							<value name="RefX">21.0373</value>
+							<value name="RefY">17.2481</value>
+							<value name="RefZ">0.0000</value>
+							<value name="Radius">不适用</value>
+							<value name="DevX">5.4520</value>
+							<value name="DevY">-2.1339</value>
+							<value name="DevZ">0.7224</value>
+							<value name="MeasuredX">26.4893</value>
+							<value name="MeasuredY">15.1142</value>
+							<value name="MeasuredZ">0.7224</value>
+							<value name="NormalX">0.9242</value>
+							<value name="NormalY">-0.3617</value>
+							<value name="NormalZ">0.1225</value>
+						</row>
+						<row name="Location" metaResult="fail">
+							<value name="Name">下偏差</value>
+							<value name="Deviation">-5.8983</value>
+							<value name="Status" />
+							<value name="UpperTolerance" />
+							<value name="LowerTolerance" />
+							<value name="RefX">99.6877</value>
+							<value name="RefY">-6.0606</value>
+							<value name="RefZ">56.3717</value>
+							<value name="Radius">不适用</value>
+							<value name="DevX">-5.8711</value>
+							<value name="DevY">-0.0427</value>
+							<value name="DevZ">0.5645</value>
+							<value name="MeasuredX">93.8166</value>
+							<value name="MeasuredY">-6.1033</value>
+							<value name="MeasuredZ">56.9362</value>
+							<value name="NormalX">0.9954</value>
+							<value name="NormalY">0.0072</value>
+							<value name="NormalZ">-0.0957</value>
+						</row>
+					</rows>
+				</table>
+			</view>
+		</views>
+	</viewSets>
+</Report>

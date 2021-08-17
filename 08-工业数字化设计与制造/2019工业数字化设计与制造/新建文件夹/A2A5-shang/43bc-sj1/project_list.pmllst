@@ -1,0 +1,57 @@
+type list
+version 0
+Toolpath\
+Toolpath\1 d10 c
+Toolpath\1 d6 2c
+Toolpath\1 d6 jpm
+Toolpath\1 d6 jcb
+Toolpath\1 d6 jcb_1
+Toolpath\1 d6r3 qm1
+Toolpath\1 e4 5  zk
+Toolpath\2 d10 jpm
+Toolpath\2 d10 cb
+Toolpath\2 d6 ck
+Toolpath\3 D10 PM
+Toolpath\3 D10 JCB
+Toolpath\3 D6 CK
+Group\
+Pattern\
+Workplane\
+Workplane\2
+Workplane\1
+Workplane\3
+Workplane\4
+Setup\
+FeatureGroup\
+Boundary\
+Boundary\1
+Macro\
+Featureset\
+Featureset\1
+NCProgram\
+NCProgram\1 d6 jcb_1
+NCProgram\1 d10 c
+NCProgram\1 d6 2c
+NCProgram\1 d6 jpm
+NCProgram\1 d6 jcb
+NCProgram\1 d6r3 qm1
+NCProgram\1 e4 5  zk
+NCProgram\2 d10 jpm
+NCProgram\2 d10 cb
+NCProgram\2 d6 ck
+NCProgram\3 D10 PM
+NCProgram\3 D10 JCB
+NCProgram\3 D6 CK
+Level\
+Level\1
+Level\61
+Tool\
+Tool\d10
+Tool\d6
+Tool\d6r3
+Tool\e4
+Process\
+MachineTool\
+StockModel\
+Model\
+Model\Ã«Å÷

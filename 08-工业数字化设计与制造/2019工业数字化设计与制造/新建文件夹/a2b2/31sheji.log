@@ -1,0 +1,151 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V10.0
+! INFO-      
+! INFO-     Start of Translation: 31-MAY-2019  8:07:26 AM
+! INFO-      
+! STATUS-   Converting Part: D:\31sheji.stp
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      Unknown
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        31sheji.stp
+! SUMMARY-  Date             2019-05-31T07:27:19+08:00
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      ST-DEVELOPER v16
+! SUMMARY-  Orig_System      SIEMENS PLM Software NX 10.0
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        ap203_configuration_controlled_3d_design_of_mechanical_parts_and_assemblies_mim_lf
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_brep_shape_representation .........................:      1
+! SUMMARY-  advanced_face ..............................................:     68
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  application_protocol_definition ............................:      1
+! SUMMARY-  approval ...................................................:      3
+! SUMMARY-  approval_date_time .........................................:      3
+! SUMMARY-  approval_person_organization ...............................:      3
+! SUMMARY-  approval_role ..............................................:      3
+! SUMMARY-  approval_status ............................................:      3
+! SUMMARY-  axis2_placement_3d .........................................:    125
+! SUMMARY-  calendar_date ..............................................:      5
+! SUMMARY-  cartesian_point ............................................:    315
+! SUMMARY-  cc_design_approval .........................................:      3
+! SUMMARY-  cc_design_date_and_time_assignment .........................:      2
+! SUMMARY-  cc_design_person_and_organization_assignment ...............:      4
+! SUMMARY-  cc_design_security_classification ..........................:      1
+! SUMMARY-  circle .....................................................:     52
+! SUMMARY-  closed_shell ...............................................:      4
+! SUMMARY-  conversion_based_unit_and_plane_angle_unit .................:      1
+! SUMMARY-  coordinated_universal_time_offset ..........................:      5
+! SUMMARY-  cylindrical_surface ........................................:     28
+! SUMMARY-  date_and_time ..............................................:      5
+! SUMMARY-  date_time_role .............................................:      2
+! SUMMARY-  design_context .............................................:      1
+! SUMMARY-  dimensional_exponents ......................................:      1
+! SUMMARY-  direction ..................................................:    344
+! SUMMARY-  edge_curve .................................................:    150
+! SUMMARY-  edge_loop ..................................................:     86
+! SUMMARY-  ellipse ....................................................:      4
+! SUMMARY-  face_bound .................................................:     31
+! SUMMARY-  face_outer_bound ...........................................:     55
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:      1
+! SUMMARY-  length_unit_and_si_unit ....................................:      1
+! SUMMARY-  line .......................................................:     94
+! SUMMARY-  local_time .................................................:      5
+! SUMMARY-  manifold_solid_brep ........................................:      4
+! SUMMARY-  mechanical_context .........................................:      1
+! SUMMARY-  organization ...............................................:      7
+! SUMMARY-  oriented_edge ..............................................:    300
+! SUMMARY-  person .....................................................:      1
+! SUMMARY-  person_and_organization ....................................:      7
+! SUMMARY-  person_and_organization_role ...............................:      4
+! SUMMARY-  plane ......................................................:     32
+! SUMMARY-  plane_angle_measure_with_unit ..............................:      1
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
+! SUMMARY-  product ....................................................:      1
+! SUMMARY-  product_category ...........................................:      2
+! SUMMARY-  product_definition .........................................:      1
+! SUMMARY-  product_definition_formation_with_specified_source .........:      1
+! SUMMARY-  product_definition_shape ...................................:      1
+! SUMMARY-  product_related_product_category ...........................:      1
+! SUMMARY-  security_classification ....................................:      1
+! SUMMARY-  security_classification_level ..............................:      1
+! SUMMARY-  shape_definition_representation ............................:      1
+! SUMMARY-  shape_representation .......................................:      1
+! SUMMARY-  shape_representation_relationship ..........................:      1
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  spherical_surface ..........................................:      4
+! SUMMARY-  toroidal_surface ...........................................:      4
+! SUMMARY-  uncertainty_measure_with_unit ..............................:      1
+! SUMMARY-  vector .....................................................:     94
+! SUMMARY-  vertex_point ...............................................:     96
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                           1981
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 31-MAY-2019 8:07:26 AM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 31-MAY-2019  8:07:26 AM
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 93
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 94
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 95
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! STATUS-    
+! STATUS-   Creating UG solid body from Input Ent Id 96
+! STATUS-    
+! STATUS-   simplifying Bsplines to analytics
+! STATUS-    
+! STATUS-   converting tolerant edges into exact edges
+! STATUS-    
+! STATUS-   doing final check of body to report any faults
+! STATUS-    
+! INFO-     Filing Part ..: C:\Users\hp\AppData\Local\Temp\31sheji_stp.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! INFO-      
+! INFO-     Total number of solids input for this translation       :         4
+! INFO-      
+! INFO-     Number of solids created without body validation faults :         4
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 31-MAY-2019  8:07:27 AM
+! INFO-      

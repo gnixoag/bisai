@@ -1,0 +1,9 @@
+43bc-sj1   o1d16
+43bc-sj2   o2d10
+43bc-sj3   o3d10
+43bc-sj4   o4d10
+43bc-sj5   o5d10
+43bc-sj6   o6d10
+43bc-sj7   o7z4.2
+43bc-sj8   o8d6
+43bc-sj9   o9z3.3
