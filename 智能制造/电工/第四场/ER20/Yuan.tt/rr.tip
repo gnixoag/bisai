@@ -1,0 +1,6 @@
+// KAIROVersion 2.00
+IoIOut[3] := 1
+IoIOut[4] := IoIOut[4] + 1
+Lin(a)
+WaitTime(500)
+IoIOut[3] := 0

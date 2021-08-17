@@ -1,0 +1,7 @@
+// KAIROVersion 2.00
+WaitIsFinished()
+IoDOut[24] := FALSE
+IoDOut[25] := FALSE
+IoDOut[30] := FALSE
+IoDOut[31] := FALSE
+WaitIsFinished()

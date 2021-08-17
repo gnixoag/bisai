@@ -1,0 +1,56 @@
+// KAIROVersion 2.00
+WaitIsFinished()
+CALL qic()
+CALL home()
+WAIT IoDIn[16] = TRUE
+WAIT IoDIn[17] = TRUE
+WAIT IoDIn[18] = TRUE
+IoIOut[0] := 100
+LABEL start
+IF IoIIn[0] = 12 THEN
+IoIOut[0] := 200
+WaitIsFinished()
+CALL fku()
+WaitIsFinished()
+WAIT IoIIn[0] = 0
+IoIOut[0] := 100
+ELSIF IoIIn[0] = 11 THEN
+IoIOut[0] := 200
+WaitIsFinished()
+CALL hselect()
+CALL xku()
+WaitIsFinished()
+WAIT IoIIn[0] = 0
+IoIOut[0] := 100
+ELSIF IoIIn[0] = 21 THEN
+IoIOut[0] := 200
+WaitIsFinished()
+CALL fl1()
+WaitIsFinished()
+WAIT IoIIn[0] = 0
+IoIOut[0] := 100
+ELSIF IoIIn[0] = 22 THEN
+IoIOut[0] := 200
+WaitIsFinished()
+CALL hselect()
+CALL xku()
+WaitIsFinished()
+WAIT IoIIn[0] = 0
+IoIOut[0] := 100
+ELSIF IoIIn[0] = 32 THEN
+IoIOut[0] := 200
+WaitIsFinished()
+CALL fku5()
+WaitIsFinished()
+WAIT IoIIn[0] = 0
+IoIOut[0] := 100
+ELSIF IoIIn[0] = 31 THEN
+IoIOut[0] := 200
+WaitIsFinished()
+CALL hselect()
+CALL xku()
+WaitIsFinished()
+WAIT IoIIn[0] = 0
+IoIOut[0] := 100
+END_IF
+GOTO start

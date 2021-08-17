@@ -1,0 +1,6 @@
+// KAIROVersion 2.00
+WaitIsFinished()
+IoDOut[24] := TRUE
+IoDOut[25] := FALSE
+WaitTime(500)
+WaitIsFinished()

@@ -1,0 +1,19 @@
+// KAIROVersion 2.00
+PTP(yd)
+CALL quan()
+WaitIsFinished()
+a.z := a.z + 13
+a.x := a.x -200
+PTP(a)
+WaitIsFinished()
+a.x := a.x + 200
+Lin(a, js)
+WaitIsFinished()
+a.z := a.z -12.6
+Lin(a, js)
+WaitIsFinished()
+CALL ao()
+WaitIsFinished()
+a.z := a.z + 50
+Lin(a)
+WaitIsFinished()

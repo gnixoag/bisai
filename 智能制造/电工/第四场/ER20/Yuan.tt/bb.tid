@@ -1,0 +1,2 @@
+crs0 : CARTREFSYS := (baseRefSys := MAP(World), x := 3376.88, y := -674.951, z := 727.081, b := 0.118524, 
+c := -0.317842)

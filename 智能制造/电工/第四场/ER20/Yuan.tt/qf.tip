@@ -1,0 +1,41 @@
+// KAIROVersion 2.00
+IF IoIIn[3] = 1 THEN
+   IF (IoDIn[16] = TRUE) AND (IoDIn[17] = TRUE) AND (IoDIn[18] = TRUE) THEN
+      PTP(yd)
+      CALL q()
+   ELSIF IoDIn[16] = FALSE THEN
+      a := p
+      CALL f()
+      CALL q()
+   ELSIF IoDIn[18] = FALSE THEN
+       a := p3
+      CALL f()
+      CALL q()
+   END_IF
+ELSIF IoIIn[3] = 2 THEN
+   IF (IoDIn[16] = TRUE) AND (IoDIn[17] = TRUE) AND (IoDIn[18] = TRUE) THEN
+   PTP(yd)
+   CALL q()
+   ELSIF IoDIn[16] = FALSE THEN
+   a := p
+   CALL f()
+   CALL q()
+ELSIF IoDIn[17] = FALSE THEN
+    a := p2
+   CALL f()
+   CALL q()
+   END_IF
+ELSIF IoIIn[3] = 3 THEN
+   IF (IoDIn[16] = TRUE) AND (IoDIn[17] = TRUE) AND (IoDIn[18] = TRUE) THEN
+   PTP(yd)
+   CALL q()
+   ELSIF IoDIn[17] = FALSE THEN
+   a := p2
+   CALL f()
+   CALL q()
+      ELSIF IoDIn[18] = FALSE THEN
+      a := p3
+      CALL f()
+      CALL q()
+   END_IF
+END_IF

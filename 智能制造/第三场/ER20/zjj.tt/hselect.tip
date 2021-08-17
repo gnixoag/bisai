@@ -1,0 +1,10 @@
+// KAIROVersion 2.00
+WaitIsFinished()
+IF IoIIn[6] = 2 THEN
+   CALL qz1()
+ELSIF IoIIn[6] = 4 THEN
+   CALL qz2()
+ELSIF IoIIn[6] = 5 THEN
+   CALL qz3()
+END_IF
+WaitIsFinished()

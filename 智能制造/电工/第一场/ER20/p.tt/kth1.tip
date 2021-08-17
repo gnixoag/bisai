@@ -1,0 +1,23 @@
+// KAIROVersion 2.00
+PTP(ap1)
+CALL du()
+PTP(ap1)
+CALL d()
+WaitIsFinished()
+b.y := b.y + 200
+PTP(b)
+WaitIsFinished()
+b.y := b.y -200
+Lin(b, js)
+CALL joi()
+WaitIsFinished()
+b.z := b.z + 30
+Lin(b, js)
+WaitIsFinished()
+b.y := b.y + 200
+Lin(b, js)
+PTP(ap1)
+RefSys(World)
+//IF IoIIn[1] <> 5 THEN
+//   CALL xie()
+//END_IF

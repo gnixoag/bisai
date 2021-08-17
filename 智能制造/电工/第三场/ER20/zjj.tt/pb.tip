@@ -1,0 +1,10 @@
+// KAIROVersion 2.00
+WaitIsFinished()
+IF IoDIn[17] = FALSE THEN
+   CALL fz1()
+ELSIF IoDIn[18] = FALSE THEN
+   CALL fz2()
+ELSIF IoDIn[16] = FALSE THEN
+      CALL fz3()
+END_IF
+WaitIsFinished()

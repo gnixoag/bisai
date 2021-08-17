@@ -1,0 +1,23 @@
+// KAIROVersion 2.00
+PTP(ap1)
+PTP(cj)
+WaitIsFinished()
+IoIOut[1] := 1
+IF (IoIIn[1] =1) OR (IoIIn[1] =2) THEN
+b := c1
+ELSIF (IoIIn[1] =3) OR (IoIIn[1] =4) THEN
+b := c2
+END_IF
+WaitIsFinished()
+b.x := b.x + 200
+PTP(b)
+WaitIsFinished()
+b.x := b.x -200
+Lin(b, js)
+CALL coi()
+CALL joi()
+WaitIsFinished()
+b.x := b.x + 200
+Lin(b, js)
+PTP(cj)
+PTP(ap1)

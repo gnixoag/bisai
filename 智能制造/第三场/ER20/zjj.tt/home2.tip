@@ -1,0 +1,4 @@
+// KAIROVersion 2.00
+WaitIsFinished()
+PTP(ap0)
+WaitIsFinished()

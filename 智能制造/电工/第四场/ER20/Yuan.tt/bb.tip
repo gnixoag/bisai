@@ -1,0 +1,26 @@
+// KAIROVersion 2.00
+IF IoIIn[3] = 1 THEN
+   RefSys(crs1)
+   IF IoIIn[1] = 1 THEN
+      a := z11
+   ELSE
+      a := z12
+   END_IF
+   a.x := a.x + 150 * (IoIIn[2] -3)
+ELSIF IoIIn[3] = 2 THEN
+   RefSys(crs1)
+   IF IoIIn[1] = 3 THEN
+    a := z13
+    ELSE
+    a := z14
+    END_IF
+    a.x := a.x + 150 * (IoIIn[2] -3)
+ ELSIF IoIIn[3] = 3 THEN
+    IF IoIIn[2] = 2 THEN
+     a := z52
+  ELSIF IoIIn[2] = 3 THEN
+     a := z53
+  ELSIF IoIIn[2] = 5 THEN
+      a := z55
+   END_IF
+END_IF

@@ -1,0 +1,38 @@
+// KAIROVersion 2.00
+IF (IoIIn[1] =1) OR (IoIIn[1] =2) THEN
+   IF (IoDIn[16] = TRUE) AND (IoDIn[17] = TRUE) AND (IoDIn[18] = TRUE) THEN
+      CALL q()
+   ELSIF IoDIn[16] = FALSE THEN
+      b := h3
+      CALL f()
+      CALL q()
+   ELSIF IoDIn[18] = FALSE THEN
+       b := h2
+      CALL f()
+      CALL q()
+   END_IF
+ELSIF (IoIIn[1] =3) OR (IoIIn[1] =4) THEN
+IF (IoDIn[16] = TRUE) AND (IoDIn[17] = TRUE) AND (IoDIn[18] = TRUE) THEN
+CALL q()
+ELSIF IoDIn[16] = FALSE THEN
+b := h3
+CALL f()
+CALL q()
+ELSIF IoDIn[17] = FALSE THEN
+b := h1
+CALL f()
+CALL q()
+END_IF
+ELSIF IoIIn[1] =5 THEN
+   IF (IoDIn[16] = TRUE) AND (IoDIn[17] = TRUE) AND (IoDIn[18] = TRUE) THEN
+   CALL q()
+ELSIF IoDIn[17] = FALSE THEN
+    b := h1
+   CALL f()
+   CALL q()
+   ELSIF IoDIn[18] = FALSE THEN
+   b := h2
+   CALL f()
+   CALL q()
+   END_IF
+END_IF

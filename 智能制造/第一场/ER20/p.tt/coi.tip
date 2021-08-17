@@ -1,0 +1,10 @@
+// KAIROVersion 2.00
+IF IoIOut[1] = 1 THEN
+WaitIsFinished()
+IoIOut[1] := 0
+WaitTime(2000)
+ELSE
+   WaitIsFinished()
+   IoIOut[1] := 1
+   WaitTime(2000)
+END_IF

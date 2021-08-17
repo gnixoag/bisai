@@ -1,0 +1,25 @@
+// KAIROVersion 2.00
+IF IoIIn[3] = 1 THEN
+   a := p2
+ELSIF IoIIn[3] = 2 THEN
+   a := p3
+    ELSIF IoIIn[3] = 3 THEN
+    a := p
+END_IF
+WaitIsFinished()
+a.z := a.z + 50
+PTP(a)
+WaitIsFinished()
+a.z := a.z -50
+Lin(a, js)
+WaitIsFinished()
+CALL tu()
+WaitIsFinished()
+a.z := a.z + 13
+Lin(a, js)
+WaitIsFinished()
+a.x := a.x -200
+Lin(a)
+WaitIsFinished()
+PTP(yd)
+CALL zk()

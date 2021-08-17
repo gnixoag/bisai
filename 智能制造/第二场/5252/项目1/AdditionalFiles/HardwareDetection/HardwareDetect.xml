@@ -1,0 +1,15 @@
+<OnlineDevices>
+  <OnlineDevice VendorID="2A" DeviceID="C01" TypeID="2A0C01" DeviceType="SIMATIC RFID" IsInSameSubnetAsOwnPgPc="True">
+    <DeviceRole>Device</DeviceRole>
+    <OrderNumber>
+    </OrderNumber>
+    <NameOfStation>rfid</NameOfStation>
+    <MacAddress>28-63-36-0C-EF-B7</MacAddress>
+    <IPAddress>192.168.8.12</IPAddress>
+    <SubnetMask>255.255.255.0</SubnetMask>
+    <RevisionPrefix>0</RevisionPrefix>
+    <IMVersionMajor>0</IMVersionMajor>
+    <IMVersionMinor>0</IMVersionMinor>
+    <Modules />
+  </OnlineDevice>
+</OnlineDevices>

@@ -1,0 +1,44 @@
+// KAIROVersion 2.00
+PTP(ap1)
+WaitIsFinished()
+IoDOut[30] := TRUE
+IoDOut[31] := FALSE
+WHILE TRUE DO
+WaitIsFinished()
+IoIOut[0] := 100
+IF IoIIn[0] > 0 THEN
+WaitIsFinished()
+IoIOut[0] := 200
+IF IoIIn[0] = 1 THEN
+CALL qf()
+CALL kth1()
+CALL h1tc()
+WaitIsFinished()
+IoIOut[0] := 100
+WaitIsFinished()
+IoIOut[5] := 1
+WaitTime(5000)
+WaitIsFinished()
+IoIOut[5] := 0
+ELSIF IoIIn[0] = 2 THEN
+CALL qf()
+CALL cth1()
+CALL h1tk()
+ELSIF IoIIn[0] = 3 THEN
+CALL qf()
+CALL kth1()
+CALL h2tcn()
+WaitIsFinished()
+IoIOut[0] := 100
+WaitIsFinished()
+IoIOut[6] := 1
+WaitTime(11000)
+WaitIsFinished()
+IoIOut[6] := 0
+ELSIF IoIIn[0] = 4 THEN
+CALL qf()
+CALL cnth2()
+   CALL h1tk()
+END_IF
+END_IF
+END_WHILE

@@ -1,0 +1,28 @@
+// KAIROVersion 2.00
+WaitIsFinished()
+CALL home()
+WaitIsFinished()
+d := z3
+d.z := d.z + 15
+d.x := d.x -500
+WaitIsFinished()
+Lin(d)
+WaitIsFinished()
+d := z3
+d.z := d.z + 15
+WaitIsFinished()
+Lin(d)
+DynOvr(10)
+Lin(z3)
+WaitIsFinished()
+CALL xio()
+CALL qic()
+WaitIsFinished()
+WaitTime(1000)
+DynOvr(30)
+WaitIsFinished()
+d := z3
+d.z := d.z + 50
+WaitIsFinished()
+Lin(d)
+CALL home()

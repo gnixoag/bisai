@@ -1,0 +1,12 @@
+// KAIROVersion 2.00
+IF IoDOut[30] = TRUE THEN
+   WaitIsFinished()
+   IoDOut[31] := TRUE
+    IoDOut[30] := FALSE
+   WaitTime(500)
+ELSE
+   WaitIsFinished()
+   IoDOut[30] := TRUE
+   IoDOut[31] := FALSE
+   WaitTime(500)
+END_IF

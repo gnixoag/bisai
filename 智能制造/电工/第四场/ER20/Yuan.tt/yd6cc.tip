@@ -1,0 +1,40 @@
+// KAIROVersion 2.00
+LABEL aa
+IF IoIIn[2] = 0 THEN
+GOTO aa
+END_IF
+IF IoIIn[3] = 1 THEN
+a := c1
+ELSIF IoIIn[3] = 2 THEN
+   a := c2
+END_IF
+PTP(yd)
+PTP(ccyu)
+WaitIsFinished()
+IoIOut[1] := 1
+WaitIsFinished()
+a.x := a.x + 100
+PTP(a)
+WaitIsFinished()
+a.x := a.x -100
+Lin(a, js)
+WaitIsFinished()
+IoIOut[1] := 0
+WaitTime(3000)
+CALL zk()
+WaitIsFinished()
+a.x := a.x + 100
+Lin(a)
+WaitIsFinished()
+PTP(ccyu)
+PTP(yd)
+WaitIsFinished()
+IoIOut[0] := 100
+WaitTime(1000)
+WaitIsFinished()
+IoIOut[5] := 1
+WaitTime(6000)
+WaitIsFinished()
+IoIOut[5] := 0
+WaitIsFinished()
+IoIOut[6] := 2

@@ -1,0 +1,28 @@
+// KAIROVersion 2.00
+IF IoIIn[6] = 0 THEN
+   IoIOut[6] := 1
+END_IF
+LABEL aa
+IF IoIIn[2] = 0 THEN
+GOTO aa
+END_IF
+CALL bb()
+PTP(yd)
+CALL zk()
+WaitIsFinished()
+a.y := a.y + 200
+PTP(a)
+WaitIsFinished()
+a.y := a.y -200
+Lin(a, js)
+WaitIsFinished()
+CALL zg()
+WaitIsFinished()
+a.z := a.z + 30
+Lin(a, js)
+WaitIsFinished()
+a.y := a.y + 200
+Lin(a)
+WaitIsFinished()
+PTP(yd)
+RefSys(World)

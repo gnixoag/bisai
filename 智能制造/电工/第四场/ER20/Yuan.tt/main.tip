@@ -1,0 +1,34 @@
+// KAIROVersion 2.00
+PTP(yd)
+WHILE TRUE DO
+   WaitIsFinished()
+   IoIOut[0] := 100
+   IF IoIIn[0] > 0 THEN
+      WaitIsFinished()
+      IoIOut[0] := 200
+      IF IoIIn[0] = 1 THEN
+         CALL qf()
+         CALL ck6yd()
+      ELSIF IoIIn[0] = 2 THEN
+      CALL qf()
+      CALL yd6ck()
+      ELSIF IoIIn[0] = 11 THEN
+          CALL qf()
+          CALL yd6cc()
+          ELSIF IoIIn[0] = 12 THEN
+          CALL qf()
+          CALL cc6yd()
+          ELSIF IoIIn[0] = 21 THEN
+             CALL cc6yd()
+             CALL yd6ck()
+             CALL ck7yd()
+             CALL yd6xc()
+          ELSIF IoIIn[0] = 31 THEN
+              CALL qf()
+              CALL yd6xc()
+              ELSIF IoIIn[0] = 32 THEN
+         CALL qf()
+         CALL xc6yd()
+      END_IF
+   END_IF
+END_WHILE

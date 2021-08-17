@@ -1,0 +1,18 @@
+// KAIROVersion 2.00
+PTP(ap1)
+PTP(re0)
+IF IoIIn[1] = 5 THEN
+b := re2
+b.x := b.x + 173 * (IoIIn[2] -1)
+ELSE
+b := re1
+b.x := b.x + 150 * (IoIIn[2] -1)
+b.z := b.z -200 * (IoIIn[1] -1)
+END_IF
+Lin(b)
+WaitIsFinished()
+//IoIOut[3] := 1
+WaitTime(6000)
+//IoIOut[3] := 0
+PTP(re0)
+PTP(ap1)

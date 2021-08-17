@@ -1,0 +1,32 @@
+// KAIROVersion 2.00
+WaitIsFinished()
+CALL home()
+WaitIsFinished()
+d := l2
+d.x := d.x + 100
+d.y := d.y -650
+WaitIsFinished()
+Lin(d)
+WAIT IoIIn[10] = 11
+WaitIsFinished()
+d := l2
+d.x := d.x + 100
+WaitIsFinished()
+Lin(d)
+CALL jiao()
+DynOvr(10)
+Lin(l2)
+CALL jiac()
+WaitIsFinished()
+IoIOut[7] := 0
+WaitIsFinished()
+WaitTime(1500)
+Lin(d)
+DynOvr(30)
+WaitIsFinished()
+d := l2
+d.x := d.x + 100
+d.y := d.y -650
+WaitIsFinished()
+Lin(d)
+CALL home()

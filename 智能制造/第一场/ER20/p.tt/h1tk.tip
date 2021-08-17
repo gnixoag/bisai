@@ -1,0 +1,30 @@
+// KAIROVersion 2.00
+PTP(ap1)
+CALL d()
+WaitIsFinished()
+b.y := b.y + 200
+b.z := b.z + 30
+PTP(b)
+IF (IoIIn[1] =3) OR (IoIIn[1] =4) THEN
+WaitIsFinished()
+b.c := b.c + 180
+ PTP(b)
+END_IF
+WaitIsFinished()
+b.y := b.y -200
+Lin(b, js)
+WaitIsFinished()
+b.z := b.z -29.5
+Lin(b, js)
+IF (IoIIn[1] =3) OR (IoIIn[1] =4) THEN
+WaitIsFinished()
+b.z := b.z -9
+Lin(b, js)
+END_IF
+CALL joi()
+WaitIsFinished()
+b.y := b.y + 200
+Lin(b, js)
+PTP(ap1)
+RefSys(World)
+CALL xie()

@@ -1,0 +1,24 @@
+// KAIROVersion 2.00
+PTP(yd)
+PTP(ro)
+IoIOut[4] := 0
+a := r1
+a.x := a.x -150
+LOOP 24 DO
+   IF (IoIOut[4] =6) OR (IoIOut[4] = 12) OR (IoIOut[4] = 18) OR (IoIOut[4] = 24) THEN
+      a.x := a.x -150 * 5
+      a.z := a.z -200
+      CALL rr()
+   ELSE
+      a.x := a.x + 150
+      CALL rr()
+   END_IF
+END_LOOP
+a := r2
+a.x := a.x -173
+LOOP 6 DO
+   a.x := a.x + 173
+   CALL rr()
+END_LOOP
+IoIOut[4] := 0
+PTP(yd)
